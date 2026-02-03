@@ -112,7 +112,7 @@ pip install pywin32 requests
 
 Clone the repository:
 
-### git clone https://github.com/your-username/news-teller-using-pywin32.git
+### git clone https://github.com/Immortal-code-creator/news-teller-using-pywin32.git
 
 
 Navigate to the project directory:
