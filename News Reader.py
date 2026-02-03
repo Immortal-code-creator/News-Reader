@@ -52,7 +52,7 @@ def crypto_news():
     }
     response=requests.get(url,params=params)
     data=response.json()
-    title=data["results"]#contain list
+    title=data["results"]#contain list of dictionaries
     news_order = [
         "First", "Second", "Third", "Fourth", "Fifth",
         "Sixth", "Seventh", "Eighth", "Ninth", "Tenth"
@@ -119,4 +119,5 @@ def User_Input():
     except Exception as e:
         print("Enter 1 or 2 or 3")
 if __name__ == '__main__':
+
     User_Input()
