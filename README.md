@@ -1,9 +1,9 @@
-🗞️ News Teller Using Pywin32 (Python)
+# 🗞️ NEWS TELLER USING PYWIN32 (PYTHON)
 
 A command-line based News Teller built using Python and Pywin32 that reads out Latest News, Crypto News, and Market News using text-to-speech functionality.
 The program fetches real-time news from newsdata.io API and narrates the news titles and descriptions aloud.
 
-📖 Description
+# 📖 DESCRIPTION
 
 The News Teller Using Pywin32 is a Python application designed to provide users with spoken news updates.
 
@@ -17,142 +17,135 @@ Pywin32 (SAPI.SpVoice) to convert text into speech
 
 The user can choose from three categories of news, and the program will read aloud up to 10 news headlines and descriptions, one by one.
 
-✨ Features
+## ✨ FEATURES
 
-🎙️ Text-to-Speech using Pywin32
+-Text-to-Speech using Pywin32
 
-📰 Reads Latest News
+-Reads Latest News
 
-💰 Reads Crypto News
+-Reads Crypto News
 
-📈 Reads Market News
+-Reads Market News
 
-🔄 Fetches real-time data via API
+-Fetches real-time data via API
 
-📦 JSON response handling
+-JSON response handling
 
-⏹️ User can stop listening anytime
+-User-controlled stop option
 
-🖥️ Simple command-line interface
+-Simple command-line interface
 
-🗂 Supported News Categories
+## 🗂 SUPPORTED NEWS CATEGORIES
 
-Latest News
+-Latest News
 
-Crypto News
+-Crypto News
 
-Market News
+-Market News
 
-🧠 Concepts Used
+## 🧠 CONCEPTS USED
 
-win32com.client.Dispatch for speech synthesis
+-win32com.client.Dispatch for speech synthesis
 
-REST APIs
+-REST APIs
 
-requests module for HTTP requests
+-requests module for HTTP requests
 
-JSON data parsing (response.json())
+-JSON parsing using response.json()
 
-Python functions
+-Functions and loops
 
-Loops and conditional statements
+-Conditional statements
 
-User input handling
+-User input handling
 
-🛠 Dependencies
+## 🛠 DEPENDENCIES
 
-Python 3.10 or later
+-Python 3.10 or later
 
-Windows OS (required for Pywin32 SAPI)
+-Windows OS (required for Pywin32)
 
-External Modules Required
+## 📦 EXTERNAL MODULES REQUIRED
 
-pywin32
+-pywin32
 
-requests
+-requests
 
-Install dependencies using:
+## 📥 INSTALL DEPENDENCIES
 pip install pywin32 requests
 
-🔑 API Used
+## 🔑 API USED
 
-newsdata.io
+-newsdata.io
 
-API key required to fetch news
+-API key required for fetching news
 
-Endpoints used:
+-API ENDPOINTS
 
-Latest News
+-Latest News
 
-Crypto News
+-Crypto News
 
-Market News
+-Market News
 
-⚠️ Make sure to replace the API key with your own key for production use.
+⚠️ Replace the API key with your own key for production use.
 
-⚙️ How the Software Works
+## ⚙️ HOW THE SOFTWARE WORKS
 
-The user runs the program.
+-User runs the program
 
-A menu is displayed with 3 news options.
+-A menu with 3 news options is displayed
 
-The user selects a news category (1–3).
+-User selects a news category
 
-The program sends a request to the API.
+-API request is sent
 
-The API returns data in JSON format.
+-Response is received in JSON format
 
-Titles and descriptions are extracted.
+-News titles and descriptions are extracted
 
-Pywin32 speaks the news aloud.
+-Pywin32 reads the news aloud
 
-The user can stop listening at any time.
+-User can stop listening anytime
 
-📥 Installation
+## 📥 INSTALLATION
 
 Clone the repository:
 
-git clone https://github.com/your-username/news-teller-using-pywin32.git
+### git clone https://github.com/your-username/news-teller-using-pywin32.git
 
 
 Navigate to the project directory:
 
-cd news-teller-using-pywin32
+-cd news-teller-using-pywin32
 
 
 Install required modules:
 
 pip install pywin32 requests
 
-▶️ Executing the Program
-
-Open Command Prompt or Terminal.
-
-Navigate to the project folder.
-
-Run the program:
-
+## ▶️ EXECUTING THE PROGRAM
 python news_teller.py
 
-❓ Help / Troubleshooting
+## ❓ HELP / TROUBLESHOOTING
 
 If the program does not work:
 
-Ensure you are using Windows OS
+-Ensure you are using Windows OS
 
-Verify Python installation:
+-Verify Python installation:
 
-python --version
+### python --version
 
 
 Ensure pywin32 is installed correctly
 
-Check your API key validity
+Verify API key validity
 
-Make sure you have an active internet connection
+Check internet connectivity
 
-👨‍💻 Author
+## 👨‍💻 AUTHOR
 
 Aeshan Chowdhury
 
-GitHub: https://github.com/Immortal-code-creator
+### GitHub: https://github.com/Immortal-code-creator
